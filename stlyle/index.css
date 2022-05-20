@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#cabecalho{
+    border-bottom: 1px #606060 solid;
+    width: 100%;
+    background-color: #363636;
+    padding: 10px;
+    display: flex; 
+
+    align-items: center; 
+}
+
+
+header, div, main{
+    color:#363636;
+}
+
+
+
+#area-logo{
+    width: 30%;
+    align-items: flex-start;
+    background-color: #363636;
+}
+
+#area-logo img{
+    margin-left: 50px;
+    width: 250px;
+
+}
+
+#menu{
+    width: 70%;
+    
+    list-style: none;
+    padding:30px;
+
+
+}
+
+menu ul li{
+
+    border:1px solid#c0c0c0;
+    display: block;
+}
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+
+ nav#menu  li{
+position: relative;
+display: inline-block;
+background-color: #fff;
+padding: 10px;
+margin:2px;
+
+     
+ }
+ 
+
+a{
+    text-decoration: none;
+    color: #363636;
+    transition: all 1s;
+}
+
+a:hover{
+    color: red;
+}
+
+
+#banner{
+    width: 100%;
+}
+
+#banner img{
+    width: 100%;
+
+}
+main{
+    padding: 20px;
+    background-color:#fff;
+ }
+ 
+ main #intro{
+     margin-top: 60px;
+     color: #363636;
+     width: 100%;
+     text-align: center;
+ }
+ 
+ #intro p{
+     margin-top: 10px;
+     color: #6e6e6e;
+ }
+ 
+ #intro h1 span{
+     color: #6A5ACD;
+ 
+ }
+ 
+ .item-menu{
+     background-color: yellow;
+ }
+ 
+ 
+ 
+ #area-cursos{
+     margin-top: 60px;
+     padding: 30px;
+     display: flex;
+     flex-wrap: wrap; /* propriedade do flexbox que define se um container ou area será multilinha ou não*/
+ }
+ 
+ #area-cursos .card-curso{
+     margin-left: 36px;
+     border-radius: 8px 8px 0px 0px;
+     width: 350px;
+     color: #363636;
+     background-color: #fff;
+     transition: all 1s;
+     margin-top: 36px;
+ }
+ 
+ #area-cursos .card-curso:hover{
+    /* border: 2px solid #6A5ACD;*/
+    transform: rotate(30deg);
+ 
+ }
+ 
+ 
+

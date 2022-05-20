@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+
+#cabecalho{
+    border-bottom: 1px #606060 solid;
+    width: 100%;
+    background-color: #363636;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+
+}
+main{
+    padding: 30px;
+    background-color:burlywood;
+}
+
+main div{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    color: dimgray;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    border: 3px solid #222;
+    background-color: #222;
+    color: #FFD700;
+
+    transition: all 0.5s;
+}
+
+input[type="button"]:hover{
+    border: 3px solid #FFD700;
+    background-color: #222;
+    color: burlywood;
+
+}
