@@ -114,28 +114,4 @@ main{
  
  
  
- #area-cursos{
-     margin-top: 60px;
-     padding: 30px;
-     display: flex;
-     flex-wrap: wrap; /* propriedade do flexbox que define se um container ou area será multilinha ou não*/
- }
- 
- #area-cursos .card-curso{
-     margin-left: 36px;
-     border-radius: 8px 8px 0px 0px;
-     width: 350px;
-     color: #363636;
-     background-color: #fff;
-     transition: all 1s;
-     margin-top: 36px;
- }
- 
- #area-cursos .card-curso:hover{
-    /* border: 2px solid #6A5ACD;*/
-    transform: rotate(30deg);
- 
- }
- 
- 
 
