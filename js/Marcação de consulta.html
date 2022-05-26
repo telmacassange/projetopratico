@@ -25,7 +25,7 @@
             <li><a href="Marcação de consulta.html">marcação de consulta</a></li>
             <li><a href="Exames.html">exames</a></li>
             <li><a href="#">contactos</a></li>
-            <li><a href="/js/cadastro.html">cadastro</a></li>
+            <li><a href="cadastro.html">cadastro</a></li>
         
             </ul>
         </nav>
@@ -73,10 +73,18 @@
 
 <p> Data de consulta <input type="date" name="ccons" id="ccons" placeholder="Data preferida"> </p>
 <p><label for="ctelefone">Telefone:</label> <input type="numero" name="tnumero" id="cnumero" size="15" maxlength="15"  placeholder="15 digitos"></p>
-<input type="submit" value="Enviar" onclick="marcacao()">
+<input type="submit" onclick="mensagem()" Exibir alert />
  </div>
      </main>
-     <script src="Marcação.js"></script>
+     <script>
+         function mensagem()
+         {
+             alert("a sua consulta foi marcada com sucesso");
+         }
+         
+         
+
+     </script>
     
     
     

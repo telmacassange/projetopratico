@@ -4,7 +4,7 @@
 
 #cabecalho{
     border-bottom: 1px #606060 solid;
-    width: 100%;
+    width: -100%;
     background-color: #363636;
     padding: 10px;
     display: flex; 
